@@ -1,6 +1,7 @@
 # concurrent api
 <details>
 <summary>목차</summary>
+	
 - [노션 강의자료](#노션-강의자료)
 - [저수준 thread 제어](#저수준-thread-제어)
 - [고수준 thread 제어 - concurrent api](#고수준-thread-제어---concurrent-api)
@@ -26,13 +27,14 @@
 	- [@com.sh.concurrent.queue.bread](#comshconcurrentqueuebread)
 - [Map](#map)
 	- [@com.sh.concurrent.map](#comshconcurrentmap)
+
 </details>
 
 ## 노션 강의자료
 [Concurrent API](https://shqkel.notion.site/Concurrent-API-6667133af3234df9bf569e62a2853297?pvs=4)
 
 ## 저수준 thread 제어
-####### [@com.sh.thread.ThreadBasicTest](https://github.com/shqkel/java-concurrent-api/tree/master/src/test/java/com/sh/thread)
+###### [@com.sh.thread.ThreadBasicTest](https://github.com/shqkel/java-concurrent-api/tree/master/src/test/java/com/sh/thread)
 - 쓰레드객체 생성하는 2가지 방법
 - 쓰레드 상태제어
 
@@ -41,7 +43,7 @@
 ### Executors
 ###### [@com.sh.concurrent.executors.single](https://github.com/shqkel/java-concurrent-api/tree/master/src/test/java/com/sh/concurrent/executors/single)
 ###### [@com.sh.concurrent.executors.multi](https://github.com/shqkel/java-concurrent-api/tree/master/src/test/java/com/sh/concurrent/executors/multi)
-####### [@com.sh.concurrent.executors.scheduled](https://github.com/shqkel/java-concurrent-api/tree/master/src/test/java/com/sh/concurrent/executors/scheduled)
+###### [@com.sh.concurrent.executors.scheduled](https://github.com/shqkel/java-concurrent-api/tree/master/src/test/java/com/sh/concurrent/executors/scheduled)
 
 
 ### Atomic
